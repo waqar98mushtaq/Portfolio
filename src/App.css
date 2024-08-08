@@ -1,0 +1,352 @@
+
+
+
+* {
+    max-height: 1000000px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://res.cloudinary.com/practicaldev/image/fetch/s--BuPz-p40--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/nphrgz8yfnjylrwfr0yl.png);
+}
+h1,
+h2,
+h3 {
+  font-family: "Muli", sans-serif;
+  font-weight: 400;
+  margin: 0 0 20px;
+  color: inherit;
+}
+
+.navbar {
+
+    align-items: center;
+    justify-content: space-between;
+    border-width: 100%;
+    
+}
+
+.title {
+    color: beige;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin: 1rem;
+    text-decoration: none;
+
+}
+.navbar {
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin: 0.5rem;
+    padding: 0.05rem;
+    border-radius: 0.5rem;
+a{
+    
+    justify-content: center;
+    color: antiquewhite;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+}
+
+  a:hover {
+    background-color: brown;
+    color: blueviolet;
+    /* border-radius: 50%; */
+}
+
+img {
+    padding: 20px;
+    max-width: 50%;
+    height: auto;
+    vertical-align: right;
+    
+
+}
+
+.title-holder {
+    font-weight: bold;
+    color: beige;
+    padding: 50px;
+    margin: 20px;
+    letter-spacing: 10px;
+}
+
+
+
+.c1 {
+    text-align: center;
+    color: beige;
+    padding: 3px;
+    margin: 0px;
+    font-weight: 800;
+}
+    /* About styling*/
+    .c3{
+        text-align: center;
+        color: beige;
+        padding: 3px;
+        margin: 0px;
+        font-weight: 800;
+    }
+    .about-skill {
+        color: beige;
+        font-size: 1.5rem;
+        font-weight: bolder;
+        margin: 1rem;
+        text-decoration: none;
+    
+    }
+    .tech-icon{
+        display: inline-table;
+       text-align: center;
+       
+    }
+
+    /* Blog*/
+
+    .holder {
+        background: #fff;
+        padding: 15px;
+        transition: box-shadow 0.3s linear;
+      }
+      .row {
+        margin-bottom: 50px;
+      }
+      .row:last-child {
+        margin-bottom: 0;
+      }
+      .holder:hover {
+        box-shadow: 0 0 30px 0 #d9d9d9;
+      }
+      .card {
+        box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) ;
+        color:rgba(119, 53, 136, 0.459) ;
+        background-color: transparent ;
+        opacity: 0.9 ;
+        transition: all 0.5s ease 0s ;
+        height: 100% ;
+      }
+      .card:hover {
+        transform: scale(1.02) ;
+        overflow: hidden ;
+        box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) ;
+      }
+      .cardb{
+      padding-top: 50px ;
+      padding-bottom: 50px ;
+      padding-left: 25px ;
+      padding-right: 25px ;
+      height: auto ;}
+      .cardb{
+        background-color: transparent ;
+        box-shadow: 0 3px 3px 2px rgba(145, 77, 161, 0.459) ;
+        color: rgb(19, 17, 17) ;
+        transition: all 0.5s ease 0s ;
+        height: 100% ;
+      }
+        img {
+            margin: 0 0 15px;
+            
+          }
+          a {
+            color: #333;
+          }
+          a:hover {
+            color: #f64b4b;
+          }
+
+        /*contact*/
+        .row {
+            margin: 0 0 25px;
+          }
+            
+          .contact-form {
+            margin: 0 0 60px;
+          }
+          input[type=name],
+input[type=email],
+input[type=contact],
+textarea {
+  background: scroll;
+  background-color: aliceblue;
+  color: wheat;
+  border: 1px solid #cccccc;
+  margin: 0;
+  padding: 5px 15px;
+  width: 100%;
+  height: 47px;
+  color: gray;
+  font-size: 16px;
+  line-height: 20px;
+}
+.title-contact{
+    color: beige;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin: 1rem;
+    text-decoration: none;
+
+}
+.contact-form {
+    margin: 0 0 60px;
+  }
+  .cbtn{
+    background-color: #04AA6D; /* Green */
+    border: royalblue;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    
+  }
+  
+  .cbtn {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #04AA6D;
+  }
+  
+  .cbtn:hover {
+    background-color: #04AA6D;
+    color: white;
+  }
+   .cbtn {
+    text-align: center;
+  }
+
+  .resume {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+  }
+  .title-holder{
+    color: beige;
+    font-weight: bolder;
+    margin: 1rem;
+    text-decoration: none;
+
+  }
+  .btn-primary {
+    background-color: #934cce5e ;
+    border-color: #934cce5e ;
+    padding: 5px; 
+    margin-left: 50%;
+    width: 100px;
+    border-radius: 5px ;
+    line-height: 1.4 ;
+   
+    
+  }
+  
+
+  /* home icon*/
+  .home-icon{
+    text-align: center ;
+    padding-top: 95px;
+    color: rgb(182, 15, 15) ;
+  }
+  .home-about-social {
+    text-align: center ;
+    padding-top: 15px;
+    color: white ;
+  }
+  .row {
+    justify-content: center ;
+    padding-top: 15px ;
+    display: flex;
+    position: relative ;
+    padding-inline-start: 0 ;
+  }
+  .icon {
+   
+    border-radius: 50%;
+    font-size: 1.2em;
+    height: 40px;
+    line-height: 2em;
+    text-align: center;
+    transition: .5s;
+    width: 40px;
+  }
+  .icon {
+    display: inline-block;
+    position: relative;
+  }
+  .icon:before {
+    background: #68187a;
+    border-radius: 50%;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    -webkit-transform: scale(.9);
+    transform: scale(.9);
+    transition: .5s;
+    width: 100%;
+    z-index: -1
+}
+.icon:hover:before {
+  box-shadow: 0 0 15px #801f95;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1)
+}
+.icon-colour {
+  color: #700c86;
+}
+
+.footers {
+  margin: 0;
+    font-family: Arial, sans-serif;
+}
+.footer-body{
+  background-color: #333; 
+  color: #fff; 
+  padding: 5px; /* Space inside the footer */
+  text-align: center; /* Center-align text */
+  position: relative; /* Allows for relative positioning if needed */
+  bottom: 0; /* Stick footer to the bottom */
+  width: 100%; /* Full width of the page */
+}
+.clr-purple{
+  color:purple;
+}
+
+.footer-icon {
+  z-index: 1;
+  text-align: center ;
+}
+
+@media (max-width: 767px) {
+  .footer-copywright {
+    text-align: center ;
+  }
+
+  .footer-body {
+    text-align: center ;
+  }
+}
+
+ h3 {
+  font-size: 1em;
+  color: white ;
+  margin-top: 0.1em ;
+  margin-bottom: 0.5em ;
+}
+.footers {
+  font-size: 1em;
+  color: white ;
+  
+}
