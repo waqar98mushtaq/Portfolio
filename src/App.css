@@ -21,44 +21,42 @@ h3 {
 }
 
 .navbar {
-
-    align-items: center;
-    justify-content: space-between;
-    border-width: 100%;
-    
+  background-color: #424446; 
+  padding: 0.5rem 1rem;      
 }
-
 .title {
-    color: beige;
-    font-size: 1.5rem;
-    font-weight: bolder;
-    margin: 1rem;
-    text-decoration: none;
+  color: #ffffff;            
+  font-size: 1.5rem;          
+  font-weight: bold; 
+  margin-right: 3rem;         
+}
+/* White color for nav links */
+  
+  .navbar .nav-link {
+    color: #ffffff;            
+    margin-right: 2rem;         
+  }
+  .navbar .nav{
+    gap: 2rem;
+    display: flex;
+    justify-content: end;
+  }
+  
+  /* Hover effect for nav links */
+  .navbar .nav-link:hover {
+    color: #adb5bd;            
+  }
+  
+  
+  /* Optional: Style for the navbar toggle button */
+  .navbar-toggler {
+    border-color: #ffffff;     
+  }
+  
 
-}
-.navbar {
-    display: block;
-    text-decoration: none;
-    color: white;
-    margin: 0.5rem;
-    padding: 0.05rem;
-    border-radius: 0.5rem;
-a{
-    
-    justify-content: center;
-    color: antiquewhite;
-    text-decoration: none;
-    text-align: center;
-    font-weight: bold;
-}
 
-}
 
-  a:hover {
-    background-color: brown;
-    color: blueviolet;
-    /* border-radius: 50%; */
-}
+
 
 img {
     padding: 20px;
