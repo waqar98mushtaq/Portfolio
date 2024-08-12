@@ -11,13 +11,40 @@ export default function AppHome(){
        <section id='Home' className='block about-block'>
        <Container fluid>
         <div className='title-holder'>
-           <h2>About My Self </h2>
-            <div className='sub-title'>Disscus here</div>
+           <h1>Hi, I'm <span className='clr-purple'>WAQAR MUSHTAQ</span>.... </h1>
+            <div className='sub-title'><h2>Disscus <span className='clr-purple'>here</span> about Myself</h2></div>
         </div>
        <Row className='row'>
          <Col className='c1' sm={6}>
-         <p>Im a computer science student.</p>
-         <p>Im a computer science student.</p>
+         <p>
+              I interested in programming and I have at least learnt
+              something, I think… 🤷‍♂️
+              <br />
+              <br />I am fluent in classics like
+              <p><span className='clr-purple'>C++,Javascript,CSS..</span></p>
+              <br />
+              <br />
+              My field of Interest's are building new &nbsp;
+              <i>
+                <span className="clr-purple">Web Technologies and Products </span> 
+               
+              </i>
+              <br />
+              <br />
+              Whenever possible, I also apply my passion for developing products
+              with <span className="clr-purple">Node.js</span> and
+              <i>
+                <span className="clr-purple">
+                  {" "}
+                  Modern Javascript Library and Frameworks
+                </span>
+              </i>
+              &nbsp; like
+              <i>
+                <span className="clr-purple"> React.js and Next.js</span>
+              </i>
+            </p>
+        
          </Col>
           
          <Col className='c2 text-center' sm={6}><Image src={img1}/></Col>
